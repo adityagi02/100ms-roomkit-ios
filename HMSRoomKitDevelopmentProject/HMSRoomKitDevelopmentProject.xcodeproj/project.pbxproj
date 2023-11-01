@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		871E1A402AF116C300F03EEE /* HMSPollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E1A3F2AF116C300F03EEE /* HMSPollModel.swift */; };
+		871E1A422AF120C100F03EEE /* HMSPollQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 871E1A412AF120C100F03EEE /* HMSPollQuestionModel.swift */; };
 		875F3A622AB19E7300904307 /* HMSRoomKitDevelopmentProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875F3A612AB19E7300904307 /* HMSRoomKitDevelopmentProjectApp.swift */; };
 		875F3A662AB19E7500904307 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875F3A652AB19E7500904307 /* Assets.xcassets */; };
 		875F3A692AB19E7500904307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875F3A682AB19E7500904307 /* Preview Assets.xcassets */; };
@@ -16,7 +18,9 @@
 		875F3BC72AB1A2CB00904307 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875F3BC62AB1A2CB00904307 /* Preview Assets.xcassets */; };
 		875F40CC2AB1AA4D00904307 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 875F40CB2AB1AA4D00904307 /* ReplayKit.framework */; };
 		875F40D32AB1AA4D00904307 /* Screenshare.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 875F40CA2AB1AA4D00904307 /* Screenshare.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		878BD6162AF23DFB00581F88 /* HMSPollModel-Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878BD6152AF23DFB00581F88 /* HMSPollModel-Actions.swift */; };
 		87952C142AB4DE5500929A30 /* CustomizationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87952C132AB4DE5500929A30 /* CustomizationExample.swift */; };
+		8799AA502AF10816006863E5 /* HMSRoomModel-Polls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8799AA4F2AF10816006863E5 /* HMSRoomModel-Polls.swift */; };
 		87A408102ABB00C700FF8700 /* JoiningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4080E2ABB00C700FF8700 /* JoiningView.swift */; };
 		87A408112ABB00C700FF8700 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A4080F2ABB00C700FF8700 /* ContentView.swift */; };
 		87A408132ABB012000FF8700 /* SampleHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87A408122ABB012000FF8700 /* SampleHandler.swift */; };
@@ -225,6 +229,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		871E1A3F2AF116C300F03EEE /* HMSPollModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSPollModel.swift; sourceTree = "<group>"; };
+		871E1A412AF120C100F03EEE /* HMSPollQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSPollQuestionModel.swift; sourceTree = "<group>"; };
 		875F3A5E2AB19E7300904307 /* HMSRoomKitDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMSRoomKitDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875F3A612AB19E7300904307 /* HMSRoomKitDevelopmentProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMSRoomKitDevelopmentProjectApp.swift; sourceTree = "<group>"; };
 		875F3A652AB19E7500904307 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -239,7 +245,11 @@
 		875F40DD2AB1AA9B00904307 /* HMSRoomKitDevelopment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HMSRoomKitDevelopment.entitlements; sourceTree = "<group>"; };
 		876B00012AB43C9C00F977F9 /* Screenshare.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Screenshare.entitlements; sourceTree = "<group>"; };
 		878983FB2AEF920A00082848 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878BD6152AF23DFB00581F88 /* HMSPollModel-Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HMSPollModel-Actions.swift"; sourceTree = "<group>"; };
 		87952C132AB4DE5500929A30 /* CustomizationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizationExample.swift; sourceTree = "<group>"; };
+		8799AA4A2AF0F775006863E5 /* 100ms-roomkit-models-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "100ms-roomkit-models-ios"; path = "../../100ms-roomkit-models-ios"; sourceTree = "<group>"; };
+		8799AA4B2AF0F779006863E5 /* 100ms-roomkit-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "100ms-roomkit-ios"; path = ..; sourceTree = "<group>"; };
+		8799AA4F2AF10816006863E5 /* HMSRoomModel-Polls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HMSRoomModel-Polls.swift"; sourceTree = "<group>"; };
 		87A4080E2ABB00C700FF8700 /* JoiningView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JoiningView.swift; path = ../../HMSRoomKitExample/HMSRoomKitExample/JoiningView.swift; sourceTree = "<group>"; };
 		87A4080F2ABB00C700FF8700 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../HMSRoomKitExample/HMSRoomKitExample/ContentView.swift; sourceTree = "<group>"; };
 		87A408122ABB012000FF8700 /* SampleHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleHandler.swift; path = ../../HMSRoomKitExample/Screenshare/SampleHandler.swift; sourceTree = "<group>"; };
@@ -451,9 +461,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		871E1A432AF1211100F03EEE /* Poll Models */ = {
+			isa = PBXGroup;
+			children = (
+				871E1A3F2AF116C300F03EEE /* HMSPollModel.swift */,
+				878BD6152AF23DFB00581F88 /* HMSPollModel-Actions.swift */,
+				871E1A412AF120C100F03EEE /* HMSPollQuestionModel.swift */,
+			);
+			path = "Poll Models";
+			sourceTree = "<group>";
+		};
 		875F3A552AB19E7300904307 = {
 			isa = PBXGroup;
 			children = (
+				8799AA4B2AF0F779006863E5 /* 100ms-roomkit-ios */,
+				8799AA4A2AF0F775006863E5 /* 100ms-roomkit-models-ios */,
 				87B53F1E2AEFBD5D0061DE1A /* HMSRoomKit */,
 				87B53EEC2AEFBD520061DE1A /* HMSRoomModels */,
 				875F3A602AB19E7300904307 /* HMSRoomKitDevelopment */,
@@ -557,6 +579,7 @@
 				87B53EFC2AEFBD520061DE1A /* RoomModel */,
 				87B53F042AEFBD520061DE1A /* SessionMetadata.swift */,
 				87B53F052AEFBD520061DE1A /* PeerMetadata.swift */,
+				871E1A432AF1211100F03EEE /* Poll Models */,
 				87B53F062AEFBD520061DE1A /* HMSHLSPlayerView.swift */,
 			);
 			name = HMSRoomModels;
@@ -591,6 +614,7 @@
 				87B53EFD2AEFBD520061DE1A /* HMSRoomModel-Higher.swift */,
 				87B53EFE2AEFBD520061DE1A /* HMSRoomModel-Base-Actions.swift */,
 				87B53EFF2AEFBD520061DE1A /* HMSRoomModel.swift */,
+				8799AA4F2AF10816006863E5 /* HMSRoomModel-Polls.swift */,
 				87B53F002AEFBD520061DE1A /* HMSRoomModel-Base.swift */,
 				87B53F012AEFBD520061DE1A /* HMSRoomModel-Internal-updates.swift */,
 				87B53F022AEFBD520061DE1A /* HMSRoomModel-Preview.swift */,
@@ -1228,6 +1252,7 @@
 				87B540152AEFBD5D0061DE1A /* HMSAirplayButton.swift in Sources */,
 				87B540522AEFBD5D0061DE1A /* HMSPreviewScreenLiveStreaming.swift in Sources */,
 				87B540192AEFBD5D0061DE1A /* EndSessionAlertView.swift in Sources */,
+				878BD6162AF23DFB00581F88 /* HMSPollModel-Actions.swift in Sources */,
 				87B5400C2AEFBD5D0061DE1A /* HMSParticipantScreenNameLabel.swift in Sources */,
 				87B5405A2AEFBD5D0061DE1A /* HMSUITheme.swift in Sources */,
 				87B5400D2AEFBD5D0061DE1A /* HMSScreenShareButton.swift in Sources */,
@@ -1255,6 +1280,7 @@
 				87B5402C2AEFBD5D0061DE1A /* HMSRolePicker.swift in Sources */,
 				87B540252AEFBD5D0061DE1A /* HMSPreviewTile.swift in Sources */,
 				87B540512AEFBD5D0061DE1A /* PreviewEnvironment.swift in Sources */,
+				8799AA502AF10816006863E5 /* HMSRoomModel-Polls.swift in Sources */,
 				87B5400F2AEFBD5D0061DE1A /* HMSOptionSheetView.swift in Sources */,
 				87B540592AEFBD5D0061DE1A /* HMSUIFontTheme-extension.swift in Sources */,
 				87B540162AEFBD5D0061DE1A /* HMSCancelButton.swift in Sources */,
@@ -1287,8 +1313,10 @@
 				87B53FD52AEFBD5D0061DE1A /* HMSDivider.swift in Sources */,
 				87B540442AEFBD5D0061DE1A /* HMSInsetView.swift in Sources */,
 				87B540572AEFBD5D0061DE1A /* HMSParticipantsPreviewLabel.swift in Sources */,
+				871E1A402AF116C300F03EEE /* HMSPollModel.swift in Sources */,
 				87B53FE52AEFBD5D0061DE1A /* HMSCameraToggleView.swift in Sources */,
 				87B53FEE2AEFBD5D0061DE1A /* HMSBackButtonView.swift in Sources */,
+				871E1A422AF120C100F03EEE /* HMSPollQuestionModel.swift in Sources */,
 				87B540232AEFBD5D0061DE1A /* HMSDefaultTileView.swift in Sources */,
 				87B5402F2AEFBD5D0061DE1A /* HMSChatListView.swift in Sources */,
 				87B540202AEFBD5D0061DE1A /* HMSStopRecordingView.swift in Sources */,
